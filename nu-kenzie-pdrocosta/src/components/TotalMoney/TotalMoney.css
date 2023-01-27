@@ -1,0 +1,13 @@
+#divTotalMoney{display: flex;
+height: 20%;
+border: 1px solid grey;
+border-radius: 16px;
+flex-direction: row;
+align-content: center;
+align-items: center;
+padding: 5%;
+margin: 3%;
+width: 100%;}
+button{
+    background-color: var(--color-primary);
+}

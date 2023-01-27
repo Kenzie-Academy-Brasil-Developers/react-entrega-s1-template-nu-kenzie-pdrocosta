@@ -1,0 +1,44 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  border: 1px solid grey;
+  padding: 3%;
+  width: 100%;
+  margin: 3%;
+  justify-content: center;
+}
+
+form > button {
+  background-color: var(--color-primary);
+}
+form > input,
+select {
+  background-color: transparent;
+  color: var(--color-grey2);
+  border: none;
+  border-radius: 5px;
+  padding: 2%;
+}
+form > div > input {
+  background-color: transparent;
+  color: var(--color-grey2);
+  border: none;
+
+  padding: 2%;
+}
+select {
+  margin: 3%;
+}
+#descInput{
+  width: 100%;
+  background-color: transparent;
+}
+#divInput_value_type{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
