@@ -1,21 +1,27 @@
 li{
-    background-color: var(--color-grey-2);
+    background-color: var(--color-grey-1);
     width: 100%;
     padding: 5%;
     height: 5%;
     margin-top: 2%;
     display: flex;
     position: relative;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
     justify-content: space-between;
 }
 ul{
     display: flex;
-    background-color: var(--color-grey-3);
+    background-color: var(--color-grey-2);
     flex-direction: column;
     padding: 2%;
     list-style: none;
     width: 100%;
     margin: 2%;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    max-height: 70vh;
+    overflow-y: auto;
 }
 li>div{
     position: relative;
