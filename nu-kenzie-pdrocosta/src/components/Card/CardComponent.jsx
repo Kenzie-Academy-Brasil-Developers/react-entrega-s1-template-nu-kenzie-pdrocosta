@@ -20,7 +20,7 @@ export function Card({ inputs, setInputs, index }) {
               </div>
               <p className="infoInputValue">R${input.value},00</p>
               <button className="deleteBtn" onClick={() => newArr(index)}>
-                <img src="src/assets/trash.svg" alt="deleteIcon" />
+                <img src="//src/assets/trash.svg" alt="deleteIcon" />
               </button>
             </li>
           </>

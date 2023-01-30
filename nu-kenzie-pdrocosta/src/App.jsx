@@ -26,7 +26,7 @@ function App() {
               Iniciar
             </button>
           </div>
-          <img src="./src/assets/Illustration.svg" alt="ilustrationsvg" />
+          <img src="//src/assets/Illustration.svg" alt="ilustrationsvg" />
         </>
       ) : (
         <>
