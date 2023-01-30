@@ -27,33 +27,29 @@ export function Form({ inputs, setInputs }) {
         />
         <p>Ex: Compra de roupas</p>
         <div className="div_Infos_input">
+          <div id="divInput_value_type">
+            <p>Valor:</p>
+            <input
+              type="number"
+              onChange={(event) => setValue(event.target.value)}
+              name="value"
+              id="inputValue"
+            />
+          </div>
 
-        
-        <div id="divInput_value_type">
-          <p>Valor:</p>
-          <input
-            type="number"
-            onChange={(event) => setValue(event.target.value)}
-            name="value"
-            id="inputValue"
-    
-          />
-        </div>
-       
-        <div>
-          <p>Tipo de valor</p>
-          <select
-            name="type"
-            id="valueType"
-            onChange={(event) => setType(event.target.value)}
-          >
-            <option value="entrada">Entrada</option>
-            <option value="saida">Saida</option>
-          </select>
+          <div>
+            <p>Tipo de valor</p>
+            <select
+              name="type"
+              id="valueType"
+              onChange={(event) => setType(event.target.value)}
+            >
+              <option value="entrada">Entrada</option>
+              <option value="saida">Saida</option>
+            </select>
           </div>
         </div>
         <button id="addBtn" type="submit" onClick={handleInput}>
-         
           Inserir Valor
         </button>
       </form>

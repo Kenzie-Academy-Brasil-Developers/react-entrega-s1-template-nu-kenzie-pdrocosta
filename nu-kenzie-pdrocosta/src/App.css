@@ -1,15 +1,13 @@
 #root {
-
   margin: 0 auto;
   padding: 0;
   text-align: center;
   position: relative;
 }
-body{
+body {
   background-color: var(--color-grey-4);
-
 }
-#div_Started{
+#div_Started {
   background-color: white;
   height: 100vh;
   width: 100vw;
@@ -19,83 +17,79 @@ body{
   padding: 5%;
   display: flex;
 }
-#divLeft{
+#divLeft {
   width: 30%;
 }
-#renderDiv{
+#renderDiv {
   display: flex;
-
 }
-.main{
+.main {
   position: relative;
   margin: 5%;
   width: 60%;
 }
-#mainDiv{
+#mainDiv {
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: flex-start;
   justify-content: space-evenly;
-  }
-  h3{
+}
+h3 {
   font-size: 2.5rem;
 
   font-weight: bold;
-  }
-  span{
+}
+span {
   color: var(--color-primary);
   font-size: 2.5rem;
 
   font-weight: bold;
-  }
-  h2{
+}
+h2 {
   font-size: 3rem;
   height: 2rem;
-  line-height:normal;
+  line-height: normal;
   text-align: start;
   font-weight: bold;
-  }
- 
-  #btn_Start{
-    width: 15rem;
-    background-color: var(--color-primary)
-  }
- 
-  
-h3{
-  font-size: xx-large;
- 
 }
 
-@media(max-width:1000px){
-  body{
+#btn_Start {
+  width: 15rem;
+  background-color: var(--color-primary);
+}
+
+h3 {
+  font-size: xx-large;
+}
+
+@media (max-width: 1000px) {
+  body {
     flex-direction: column;
   }
- 
-  #mainDiv{
+
+  #mainDiv {
     flex-direction: column;
   }
-  #renderDiv{
+  #renderDiv {
     flex-direction: column;
-   
+
     gap: 5%;
     position: relative;
-
   }
-  h6{
+  h6 {
     position: relative;
     margin-top: 20%;
   }
-  #div_Started{
+  #div_Started {
     flex-direction: column;
     align-items: center;
     padding-top: 15%;
   }
-  #divLeft{
+  #divLeft {
     width: 90%;
   }
-  .main{
+  .main {
     width: 100%;
     margin-top: 15%;
   }
