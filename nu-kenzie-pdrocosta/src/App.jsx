@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 import "./globalStyles.css";
+import {} from "//src/assets/Illustration.svg"
 import { Header } from "./components/header/HeaderComponent.jsx";
 import { Form } from "./components/Form/FormComponent.jsx";
 import { TotalMoney } from "./components/TotalMoney/TotalMoneyComponent.jsx";
