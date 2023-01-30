@@ -1,5 +1,5 @@
 import "./Card.css";
-import {} from "//src/assets/trash.svg"
+import {trash} from "./trash.svg"
 export function Card({ inputs, setInputs, index }) {
   function newArr(index) {
     const newInputs = [...inputs];
@@ -20,7 +20,7 @@ export function Card({ inputs, setInputs, index }) {
               </div>
               <p className="infoInputValue">R${input.value},00</p>
               <button className="deleteBtn" onClick={() => newArr(index)}>
-                <img src="//src/assets/trash.svg" alt="deleteIcon" />
+                <img src={trash} alt="deleteIcon" />
               </button>
             </li>
           </>
