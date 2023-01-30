@@ -31,13 +31,13 @@ function App() {
         <>
           <div id="div_Started">
             <Header home={home} setHome={setHome} />
-            <div id="divLeft">
+            <div id="divLeft" className="main">
               <Form inputs={inputs} setInputs={setInputs} />
               <TotalMoney inputs={inputs} />
             </div>
-            <div>
+            <div className="main">
               <h3>Resumo Financeiro</h3>
-              <Card inputs={inputs} />
+              <Card inputs={inputs} setInputs={setInputs} />
             </div>
           </div>
         </>
@@ -45,5 +45,5 @@ function App() {
     </div>
   );
 }
-
+//
 export default App;

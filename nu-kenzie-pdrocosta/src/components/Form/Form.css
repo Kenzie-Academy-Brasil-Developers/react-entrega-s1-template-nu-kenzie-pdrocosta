@@ -2,17 +2,24 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 16px;
-  border: 1px solid grey;
   padding: 3%;
   width: 100%;
-  margin: 3%;
-  justify-content: center;
-}
 
+  justify-content: center;
+
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+}
+.div_Infos_input {
+  display: flex;
+}
+form > p {
+  align-self: flex-start;
+}
 form > button {
   background-color: var(--color-primary);
 }
+#inputValue,
 form > input,
 select {
   background-color: transparent;
@@ -20,25 +27,38 @@ select {
   border: none;
   border-radius: 5px;
   padding: 2%;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+}
+#inputValue {
+  width: 50%;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
 }
 form > div > input {
   background-color: transparent;
   color: var(--color-grey2);
   border: none;
-
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
   padding: 2%;
 }
 select {
-  margin: 3%;
+  width: 100%;
+  margin: 2%;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
 }
-#descInput{
+#descInput {
   width: 100%;
   background-color: transparent;
 }
-#divInput_value_type{
+#divInput_value_type {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 70%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+#div_Infos_input {
 }

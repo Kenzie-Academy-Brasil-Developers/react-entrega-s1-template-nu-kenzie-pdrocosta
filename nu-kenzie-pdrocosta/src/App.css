@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 0;
   text-align: center;
-
+  position: relative;
 }
 body{
   background-color: var(--color-grey-4);
@@ -20,11 +20,16 @@ body{
   display: flex;
 }
 #divLeft{
-  width: 50%;
+  width: 30%;
 }
 #renderDiv{
   display: flex;
 
+}
+.main{
+  position: relative;
+  margin: 5%;
+  width: 60%;
 }
 #mainDiv{
   display: flex;
@@ -51,16 +56,47 @@ body{
   text-align: start;
   font-weight: bold;
   }
-  h6{
-  
-  }
+ 
   #btn_Start{
     width: 15rem;
     background-color: var(--color-primary)
   }
-  img{
+ 
   
+h3{
+  font-size: xx-large;
+ 
+}
+
+@media(max-width:1000px){
+  body{
+    flex-direction: column;
   }
-  
+ 
+  #mainDiv{
+    flex-direction: column;
+  }
+  #renderDiv{
+    flex-direction: column;
+   
+    gap: 5%;
+    position: relative;
 
-
+  }
+  h6{
+    position: relative;
+    margin-top: 20%;
+  }
+  #div_Started{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
+  }
+  #divLeft{
+    width: 90%;
+  }
+  .main{
+    width: 100%;
+    margin-top: 15%;
+  }
+}
