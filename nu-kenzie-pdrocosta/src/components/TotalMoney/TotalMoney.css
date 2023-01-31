@@ -14,16 +14,15 @@
   position: relative;
 }
 #resultadoSomas {
-  border: 2px solid #f8f9fa;
-  border-radius: 8px;
   width: 40%;
   position: absolute;
-
+  color: var(--color-primary);
+  font-weight: 900;
   top: 9%;
   right: 5%;
 }
 #divTotalMoney > div > p {
-  margin-top: 3%;
+  margin-top: 1.5%;
 }
 #divTotalMoney > div {
   position: absolute;
@@ -34,10 +33,10 @@
   flex-direction: column;
   align-content: flex-start;
 }
-@media (max-widht: 1000px) {
+@media (max-width: 1000px) {
   #divTotalMoney {
     width: 100%;
-    padding: 10%;
+    padding: 15%;
     height: 25%;
   }
 }

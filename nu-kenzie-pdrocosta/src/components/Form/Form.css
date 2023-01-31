@@ -12,12 +12,17 @@ form {
 }
 .div_Infos_input {
   display: flex;
+  width: 100%;
+  align-items: flex-end;
+  margin-bottom: 2%;
+
 }
 form > p {
   align-self: flex-start;
 }
 form > button {
   background-color: var(--color-primary);
+  width: 100%;
 }
 #inputValue,
 form > input,
@@ -60,5 +65,4 @@ select {
   align-items: center;
   justify-content: space-around;
 }
-#div_Infos_input {
-}
+

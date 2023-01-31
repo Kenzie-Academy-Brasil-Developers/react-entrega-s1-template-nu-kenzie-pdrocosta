@@ -37,7 +37,7 @@ function App() {
               <TotalMoney inputs={inputs} />
             </div>
             <div className="main">
-              <h3>Resumo Financeiro</h3>
+              <h5>Resumo Financeiro</h5>
               <Card inputs={inputs} setInputs={setInputs} />
             </div>
           </div>

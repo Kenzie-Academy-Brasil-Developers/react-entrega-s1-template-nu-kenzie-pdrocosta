@@ -1,5 +1,6 @@
 import "./Card.css";
 import trash from "./trash.svg";
+
 export function Card({ inputs, setInputs, index }) {
   function newArr(index) {
     const newInputs = [...inputs];

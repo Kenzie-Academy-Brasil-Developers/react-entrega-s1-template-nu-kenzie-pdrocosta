@@ -12,14 +12,13 @@ li {
 }
 ul {
   display: flex;
-  background-color: var(--color-grey-2);
+
   flex-direction: column;
   padding: 2%;
   list-style: none;
   width: 100%;
   margin: 2%;
-  border: 1px solid #e9ecef;
-  border-radius: 4px;
+
   max-height: 70vh;
   overflow-y: auto;
 }
@@ -36,10 +35,18 @@ ul > li > div > p {
 .deleteBtn {
   background-color: transparent;
 }
+.infoInputDescription{
+  font-size: larger;
+  font-weight: bolder;
+}
 @media (max-width: 1000px) {
   ul {
     width: 100%;
     max-height: 350px;
     overflow-y: auto;
+  }
+  li{
+    display: flex;
+    flex-direction: column;
   }
 }
